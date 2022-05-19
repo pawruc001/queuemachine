@@ -17,12 +17,13 @@ This project is C++ based.
 ### CI
 For CI we are using * *Super-Linter* *
 In case we need further testing we will configure basic automated unit testing CI
- 
+
 ### Known Bugs
 NON-EXISTENT
 
 
-## 
+##
+###
 #### Contributors
 <sub>Hankiewicz Hanna </sub>
 
