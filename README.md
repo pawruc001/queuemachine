@@ -11,6 +11,9 @@ Original project is created for dean's offices in universities, but with small c
 3. Option for dean's office workers to "mark students as done" and remove from queue
 4. Option to narrow down specific problem-category that student comes with.
 
+### Language
+This project is C++ based.
+
 ### CI
 For CI we are using * *Super-Linter* *
 In case we need further testing we will configure basic automated unit testing CI
