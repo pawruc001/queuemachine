@@ -1,11 +1,13 @@
 ## Paweł
-1. The lint needs to be reconfigured ASAP or ditched completely.
-2. Unit testing.
-3. Revision of code and database.
+1. No further actions required.
 
 ## Kalina
-1. Provided basic database.
+1. No further actions required.
 
 ## Hanna
-1. Provided main cpp.
+1. No further actions required.
+
 ## Dominik
+1. No further actions required.
+
+
