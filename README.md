@@ -15,7 +15,7 @@ Original project is created for dean's offices in universities, but with small c
 This project is C++ based.
 
 ### CI
-For CI we are using *Super-Linter*
+TeamCity by Jetbrains is used for CI in this project.
 
 In case we need further testing we will configure basic automated unit testing CI
 
