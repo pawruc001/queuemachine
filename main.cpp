@@ -6,7 +6,7 @@
 #include <stdexcept>
 
 #define HOST ""
-#define BASE "projekt"
+#define BASE ""
 #define USER ""
 #define PASS ""
 
@@ -88,17 +88,15 @@ void nowa_osoba()
     }
 
     cout<< "Jaki masz problem? Wpisz uzywajac max 100 znakow:"<<endl;
-    cin>>problem;
 
+    cin.get();
+    getline( cin, problem );
 
     query = "INSERT INTO `" + kierunek + "`(`osoba`,`poziom`,`tryb`,`problem`) VALUES ('" + student_kandydat + "','" + poziom + "','" + tryb + "','" + problem + "');";
 
 
 
     mysql_query(connect, query.c_str());
-query = ";alter table elektronika AUTO_INCREMENT=1;";
-mysql_query(connect, query.c_str());
-cout<<query<<endl;
 }
 
 int main()
